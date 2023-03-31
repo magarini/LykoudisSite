@@ -39,6 +39,17 @@ nav {
     box-sizing:border-box;
 }
 
+.burgerMenu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger{
+    margin:0 24px;
+    display:none;
+}
+
 nav a {
     text-decoration: none;
     color: white;
@@ -129,6 +140,35 @@ main {
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
+    }
+
+    nav{
+        position:absolute;
+        min-height:56px;
+        z-index:2;
+        flex-direction: column;
+    }
+
+    .burgerMenu{
+        width:100vw;
+        min-height:56px;
+    }
+
+    .burger{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu {
+    flex-direction: column;
+    align-items: flex-end;
+    width:100vw;
+    height:auto;
+    }
+
+    .menu a{
+        margin:8px;
     }
 
     .photoContainer {
