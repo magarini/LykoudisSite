@@ -39,6 +39,10 @@ nav {
     box-sizing: border-box;
 }
 
+.home .menu{
+    background-color: transparent;
+}
+
 .burgerMenu {
     display: flex;
     justify-content: space-between;
@@ -75,6 +79,10 @@ main {
 .photoContainer {
     background-color: rgb(45, 45, 45);
     height: 100vh;
+}
+
+.home .photoContainer {
+    width: 100vw;
 }
 
 .contentContainer {
@@ -179,6 +187,10 @@ p {
     .photoContainer {
         height: 400px;
         width: 100%;
+    }
+
+    .home .photoContainer {
+        height: 100vh;
     }
 
     .contentContainer {
