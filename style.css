@@ -36,18 +36,18 @@ nav {
     justify-content: space-between;
     background-color: #0E0E0E;
     padding: 0 24px;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
-.burgerMenu{
-    display:flex;
+.burgerMenu {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.burger{
-    margin:0 24px;
-    display:none;
+.burger {
+    margin: 0 24px;
+    display: none;
 }
 
 nav a {
@@ -59,8 +59,8 @@ a.active {
     font-weight: bold;
 }
 
-.logo{
-    margin:0 24px;
+.logo {
+    margin: 0 24px;
 }
 
 main {
@@ -74,6 +74,7 @@ main {
 
 .photoContainer {
     background-color: rgb(45, 45, 45);
+    height: 100vh;
 }
 
 .contentContainer {
@@ -112,10 +113,11 @@ main {
     position: relative;
     width: 100%;
     overflow: hidden;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
-  }
-  
-  .responsive-iframe {
+    padding-top: 56.25%;
+    /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -124,56 +126,59 @@ main {
     width: 100%;
     height: 100%;
     border: none;
-  }
+}
 
-  p{
-    max-width:700px;
-  }
+p {
+    max-width: 700px;
+}
 
 
 
 
 /* mobile */
 @media only screen and (max-width: 700px) {
-    body,main {
+
+    body,
+    main {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
     }
 
-    nav{
-        position:absolute;
-        min-height:56px;
-        z-index:2;
+    nav {
+        position: absolute;
+        min-height: 56px;
+        z-index: 2;
         flex-direction: column;
     }
 
-    .burgerMenu{
-        width:100vw;
-        min-height:56px;
+    .burgerMenu {
+        width: 100vw;
+        min-height: 56px;
     }
 
-    .burger{
-        display:flex;
+    .burger {
+        display: flex;
         align-items: center;
         justify-content: center;
     }
 
     .menu {
-    flex-direction: column;
-    align-items: flex-end;
-    width:100vw;
-    height:auto;
+        display: none;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100vw;
+        height: auto;
     }
 
-    .menu a{
-        margin:8px;
+    .menu a {
+        margin: 8px;
     }
 
     .photoContainer {
         height: 400px;
-        width:100%;
+        width: 100%;
     }
 
     .contentContainer {
