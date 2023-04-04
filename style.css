@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 
 body {
     background-color: #0E0E0E;
@@ -79,6 +85,12 @@ main {
     height: 100vh;
 }
 
+.photoContainer.full img{
+object-fit: cover;
+width:100vw;
+height:100vh;
+}
+
 .home .photoContainer {
     width: 100vw;
 }
@@ -145,15 +157,53 @@ h1{
     margin:64px 0;
 }
 
+.contentContainer a{
+    color:white;
+    font-weight:bolder;
+}
+
 .photoContainer.full {
     display:flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 
+.photoContainer img{
+    display: block;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.photoContainer.full img{
+    display: block;
+}
+
+.photoContainer:after{
+    position: absolute;
+    content:"";
+    height:100%;
+    width:35vw;
+    top:0;
+    left:0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
+}
+
+.photoContainer.full:after{
+    position: absolute;
+    content:"";
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
+}
+
 .photoContainer.full h1{
     font-size:128px;
     margin:64px;
+    position:absolute;
+    z-index:2;
 }
 
 
@@ -205,6 +255,13 @@ h1{
     .photoContainer {
         height: 400px;
         width: 100%;
+    }
+
+    .photoContainer:after{
+        content:"";
+        height:400px;
+        width:100vw;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
     }
 
     .home .photoContainer {
