@@ -90,6 +90,8 @@ main {
     padding-top: 200px;
     display: flex;
     flex-direction: column;
+    height:100%;
+    overflow-y:auto;
 }
 
 /* .mediaItem hr{
