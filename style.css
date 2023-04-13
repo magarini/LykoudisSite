@@ -273,11 +273,16 @@ h1{
         padding: 24px;
         overflow-y: visible;
         margin-bottom:56px;
+        width:100%;
     }
 
     .photoContainer.full h1{
         font-size:64px;
         margin:32px;
+    }
+
+    .contentContainer iframe{
+        overflow-y: visible;
     }
     
 
