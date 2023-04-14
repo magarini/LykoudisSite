@@ -288,3 +288,19 @@ h1{
     
 
 }
+
+
+
+@font-face {
+    font-family: 'ApfelGrotezk';
+    src: url('fonts/ApfelGrotezk-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: 'ApfelGrotezk';
+    src: url('fonts/ApfelGrotezk-Fett.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 700;
+  }
