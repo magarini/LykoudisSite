@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 0;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'ApfelGrotezk','Poppins', sans-serif;
 }
 
 nav {
@@ -80,6 +80,10 @@ main {
     grid-template-columns: 35% 1fr;
 }
 
+.home main{
+    display:flex;
+}
+
 .photoContainer {
     background-color: rgb(45, 45, 45);
     height: 100vh;
@@ -118,7 +122,9 @@ height:100vh;
 }
 
 .mediaItem h2 {
-    font-size: 20px;
+    font-size: 24px;
+    font-family:'ApfelGrotezk', 'Poppins',sans-serif;
+
 }
 
 .mediaItem .videoContainer {
@@ -156,6 +162,7 @@ p {
 
 h1{
     margin:64px 0;
+    font-family:'ApfelGrotezk', 'Poppins',sans-serif;
 }
 
 .contentContainer a{
@@ -201,8 +208,8 @@ h1{
 }
 
 .photoContainer.full h1{
-    font-size:128px;
-    margin:64px;
+    font-size:100px;
+    margin:32px;
     position:absolute;
     z-index:2;
 }
