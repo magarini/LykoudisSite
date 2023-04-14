@@ -151,7 +151,7 @@ height:100vh;
 
 p {
     max-width: 700px;
-    line-height: 150%;
+    line-height: 160%;
 }
 
 h1{
@@ -207,6 +207,15 @@ h1{
     z-index:2;
 }
 
+.downloadLink{
+    margin:32px 0;
+}
+
+.mediaItem:last-child{
+    padding-bottom:80px;
+}
+
+
 
 /* mobile */
 @media only screen and (max-width: 700px) {
@@ -250,7 +259,7 @@ h1{
     }
 
     .menu a {
-        margin: 8px;
+        margin: 16px 24px;
     }
 
     .photoContainer {
@@ -285,7 +294,8 @@ h1{
     .contentContainer iframe{
         overflow-y: visible;
     }
-    
+
+
 
 }
 
