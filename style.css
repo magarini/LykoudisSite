@@ -109,6 +109,7 @@ main {
 }
 
 .mediaItem h2 {
+    margin:4px;
     font-size: 24px;
     font-family:'ApfelGrotezk', 'Poppins',sans-serif;
 
