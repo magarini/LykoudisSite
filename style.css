@@ -109,10 +109,13 @@ main {
 }
 
 .mediaItem h2 {
-    margin:4px;
+    margin:4px 0;
     font-size: 24px;
     font-family:'ApfelGrotezk', 'Poppins',sans-serif;
 
+}
+.mediaItem img{
+    margin:8px 0;
 }
 
 .mediaItem .videoContainer {
@@ -127,7 +130,9 @@ main {
     padding-bottom:80px;
 }
 
-
+/* .info{
+    font-size:14px;
+} */
 
 .videoContainer {
     position: relative;
