@@ -13,12 +13,11 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    color: white;
-    font-family: 'ApfelGrotezk','Poppins', sans-serif;
+    color: #F2F2F2;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav {
-    /* background-color:#292929; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,7 +61,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: #f2f2f2;
 }
 
 a.active {
@@ -111,7 +110,7 @@ main {
 .mediaItem h2 {
     margin:4px 0;
     font-size: 24px;
-    font-family:'ApfelGrotezk', 'Poppins',sans-serif;
+    font-family:'Poppins',sans-serif;
 
 }
 .mediaItem img{
@@ -160,11 +159,11 @@ p {
 
 h1{
     margin:64px 0;
-    font-family:'ApfelGrotezk', 'Poppins',sans-serif;
+    font-family:'Poppins',sans-serif;
 }
 
 .contentContainer a{
-    color:white;
+    color:#f2f2f2;
     font-weight:bolder;
 }
 
@@ -334,7 +333,7 @@ height:100vh;
 
 
 
-@font-face {
+/* @font-face {
     font-family: 'ApfelGrotezk';
     src: url('fonts/ApfelGrotezk-Regular.woff2') format('woff2');
     font-style: normal;
@@ -346,4 +345,4 @@ height:100vh;
     src: url('fonts/ApfelGrotezk-Fett.woff2') format('woff2');
     font-style: normal;
     font-weight: 700;
-  }
+  } */
