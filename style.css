@@ -155,6 +155,7 @@ main {
 p {
     max-width: 700px;
     line-height: 160%;
+    opacity:80%;
 }
 
 h1{
@@ -165,7 +166,13 @@ h1{
 .contentContainer a{
     color:#f2f2f2;
     font-weight:bolder;
+    opacity:87%;
 }
+
+.mediaPage .mediaItem p{
+    display:none;
+}
+
 
 /* photos */
 
@@ -327,6 +334,10 @@ height:100vh;
         overflow-y: visible;
     }
 
+    .horizontalLeft, .horizontalLeftCropped,
+    .horizontalRightCropped{
+        object-position: 50% 50%; 
+    }
 
 
 }
