@@ -2,7 +2,7 @@
 
 :root {
     --bg-color: #F2F2F2;
-    --text-color: #0E0E0E;
+    --text-color: #2f2f2f;
 }
 
 * {
@@ -226,6 +226,8 @@ h1 {
     top: 0;
     left: 0;
     /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)); */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+
 }
 
 .photoContainer.full:after {
@@ -236,11 +238,13 @@ h1 {
     top: 0;
     left: 0;
     /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)); */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+
 }
 
 .photoContainer.full h1 {
     font-size: 100px;
-    margin: 32px;
+    margin: 16px 24px;
     position: absolute;
     z-index: 2;
 }
@@ -283,6 +287,10 @@ h1 {
     margin: 40px 0 8px;
 }
 
+.home h1{
+    color:var(--bg-color);
+}
+
 /* mobile */
 @media only screen and (max-width: 700px) {
 
@@ -304,6 +312,8 @@ h1 {
     .burgerMenu {
         width: 100%;
         min-height: 56px;
+        background-color: var(--bg-color);
+
     }
 
     .burger {
@@ -318,17 +328,17 @@ h1 {
         align-items: flex-end;
         width: 100%;
         height: auto;
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
+        background-color: var(--bg-color);
 
     }
 
     .home .menu {
-        background-color: var(--bg-color);
+        background-color: var(--text-color);
     }
 
     .menu a {
         margin: 16px 24px;
-        color: var(--bg-color);
+        color: var(--text-color);
 
 
     }
@@ -343,6 +353,8 @@ h1 {
         height: 400px;
         width: 100%;
         /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)); */
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+
     }
 
     .home .photoContainer {
@@ -359,7 +371,7 @@ h1 {
 
     .photoContainer.full h1 {
         font-size: 64px;
-        margin: 32px;
+        margin: 16px 24px;
     }
 
     .contentContainer iframe {
