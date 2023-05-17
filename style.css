@@ -3,6 +3,7 @@
 :root {
     --bg-color: #F2F2F2;
     --text-color: #2f2f2f;
+    
 }
 
 * {
@@ -20,6 +21,10 @@ body {
     padding: 0;
     color: var(--text-color);
     font-family: 'Poppins', sans-serif;
+    display:grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+
 }
 
 nav {
@@ -253,6 +258,12 @@ h1 {
     object-position: left bottom;
 }
 
+.horizontalLeftTop{
+    object-position: -56px;
+    padding-top:56px;
+
+}
+
 .horizontalLeftCropped {
     object-position: -56px;
 }
@@ -382,6 +393,12 @@ h1 {
     .horizontalLeftCropped,
     .horizontalRightCropped {
         object-position: 50% 50%;
+    }
+
+    .horizontalLeftTop{
+        object-position: 50% 50%;
+        padding-top:0;
+    
     }
 
 
