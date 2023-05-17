@@ -303,7 +303,7 @@ h1 {
     }
 
     nav {
-        position: absolute;
+        position: static;
         min-height: 56px;
         z-index: 2;
         flex-direction: column;
