@@ -1,14 +1,19 @@
 function toggleBurger() {
-    var x = document.querySelector(".menu");
+    var menu = document.querySelector(".menu");
     var navBar=document.querySelector(".burgerMenu");
+    var x=document.querySelector(".burger");
 
-    if (x.style.display === "flex") {
-      x.style.display = "none";
+    if (menu.style.display === "flex") {
+      menu.style.display = "none";
       navBar.style.background="transparent"
+      x.innerHTML='<img src="icons/menu.svg">';
+      console.log('innerHtml',x.innerHTML)
 
     } else {
-      x.style.display = "flex";
+      menu.style.display = "flex";
       navBar.style.background="#F2F2F2"
+      x.innerHTML='<img src="icons/close.svg">';
+
 
     }
   } 

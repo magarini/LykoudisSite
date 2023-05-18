@@ -56,9 +56,9 @@ nav {
     color: var(--text-color);
 }
 
-.home .menu {
+/* .home .menu {
     background-color: transparent;
-}
+} */
 
 .burgerMenu {
     display: flex;
@@ -343,9 +343,9 @@ h1 {
 
     }
 
-    .home .menu {
+    /* .home .menu {
         background-color: var(--text-color);
-    }
+    } */
 
     .menu a {
         margin: 16px 24px;
