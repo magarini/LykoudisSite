@@ -228,7 +228,7 @@ h1 {
     content: "";
     height: 100%;
     width: 35%;
-    top: 0;
+    top: 56px;
     left: 0;
     /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)); */
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
@@ -240,7 +240,7 @@ h1 {
     content: "";
     height: 100%;
     width: 100%;
-    top: 0;
+    top: 56px;
     left: 0;
     /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)); */
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
@@ -378,6 +378,7 @@ h1 {
         margin-bottom: 56px;
         width: 100%;
         box-sizing: border-box;
+        max-height:none;
     }
 
     .photoContainer.full h1 {
