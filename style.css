@@ -12,6 +12,13 @@
     box-sizing: border-box;
 }
 
+html{
+    max-height:100vh;
+    margin:0;
+    padding:0;
+    overflow-y: hidden;
+}
+
 
 body {
     background-color: var(--bg-color);
@@ -90,6 +97,8 @@ main {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 35% 1fr;
+    grid-column: 2/2;
+    grid-row-start:2;
 }
 
 .home main {
@@ -369,7 +378,7 @@ h1 {
     }
 
     .home .photoContainer {
-        height: 100vh;
+        height: 100%;
     }
 
     .contentContainer {
