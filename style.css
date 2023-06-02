@@ -13,7 +13,7 @@
 }
 
 html{
-    max-height:100vh;
+    max-height:100dvh;
     margin:0;
     padding:0;
     overflow-y: hidden;
@@ -23,7 +23,7 @@ html{
 body {
     background-color: var(--bg-color);
     display: flex;
-    height: 100vh;
+    height: 100dvh;
     margin: 0;
     padding: 0;
     color: var(--text-color);
@@ -112,7 +112,7 @@ main {
     padding-top: 200px;
     display: flex;
     flex-direction: column;
-    max-height: 100vh;
+    max-height: 100dvh;
     overflow-y: auto;
     box-sizing: border-box;
 }
@@ -202,13 +202,13 @@ h1 {
 
 .photoContainer {
     background-color: rgb(45, 45, 45);
-    height: 100vh;
+    height: 100dvh;
 }
 
 .photoContainer.full img {
     object-fit: cover;
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
 }
 
 .home .photoContainer {
