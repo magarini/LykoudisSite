@@ -78,6 +78,10 @@ nav {
     display: none;
 }
 
+.burger img{
+    width:32px;
+}
+
 nav a {
     text-decoration: none;
     color: var(--text-color);
