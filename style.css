@@ -299,17 +299,18 @@ h1 {
     height: 32px;
 }
 
-.contactPage .contentContainer {
-    /* padding-top:64px; */
-}
 
 .contactPage iframe {
     min-height: 300px;
+    max-width: 700px;
+
 }
 
 .contactPage h2 {
     margin: 40px 0 8px;
 }
+
+
 
 .home h1{
     color:var(--bg-color);
